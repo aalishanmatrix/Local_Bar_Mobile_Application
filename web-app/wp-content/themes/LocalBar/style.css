@@ -1,0 +1,102 @@
+/*
+Theme Name: LocalBar
+Theme URI: localhost/wordpress/
+Description: This is a Local bar project purpose jquery mobile based theme developed by a Bangladeshi Developer Kaidul Islam
+Author: Kaidul Islam
+Author URI: https://www.odesk.com/users/~0134a71fa6677afc91
+Version: 1.0
+Tags: jquery-mobile, kaidul-islam, best, mobile-theme
+License: GNU General Public License | This theme is completely free and open source to use as you like for both personal and commercial projects without any limitations.
+License URI: https://www.gnu.org/licenses/gpl.html
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}
+
+
+#header{
+    height: 90px;
+    width: auto;
+}
+
+.ui-icon-menu{
+    background: transparent url(images/menu-collapse.png) no-repeat;
+    box-shadow: none;
+    background-position: center top;
+    background-size: 35px 35px;
+    width: 48px;
+    height: 48px;
+}
+
+#header .ui-btn-icon-notext{
+    margin-top: 45px;
+    margin-right: -4px;
+    width:auto;
+    height:40px;
+    border: none;        
+    background: transparent;
+}
+
+#header .ui-btn-up-c {
+    border: none;
+    box-shadow: none;
+}
+
+#header .ui-btn-icon-notext .ui-btn-inner {
+    padding: 0px;
+    box-shadow: none;
+}
+
+#header .ui-btn-inner {
+    border: 0px;
+    box-shadow: none;
+}
+
+#head_image_wrapper{
+    position: relative;
+    /*margin-top: -90px;*/
+    background: url(images/small_bg.png) repeat-x;
+    min-height: 122px;
+    width: auto;
+}
+
+#head_image{
+    background: url(images/header.png) no-repeat;
+    background-position: center top;
+    min-height: 122px;
+    width: auto;
+}
+
+#index-image{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.ui-icon-list-arrow{
+    background: url(images/next.png) 50% 50% no-repeat;
+    background-size: 24px 24px; 
+    box-shadow: none;
+}
+
+.ui-li-thumb-list-arrow {
+    max-height: 24px; 
+    max-width: 24px; 
+    position: absolute;
+}
+
+#footer{
+    background: url(images/footer.png) repeat-x;
+    min-height: 200px;
+    font-weight: normal;
+    padding-top: 20px;
+    text-align: center;
+}
+#footer span{
+    font-size: small;
+}
+
+#wine_bottles{
+    margin-top: 50px;
+    background: url(images/footer-bottles.png) no-repeat;
+    background-position: bottom left;
+    height: 143px;
+}
