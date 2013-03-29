@@ -1,5 +1,5 @@
 <?php
-	function removeHeadLinks() {
+function removeHeadLinks() {
     	remove_action('wp_head', 'rsd_link');
     	remove_action('wp_head', 'wlwmanifest_link');
     }
@@ -10,4 +10,4 @@
     function url() {
     	echo get_stylesheet_directory_uri();
     }
-?>
+?>    

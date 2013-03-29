@@ -17,28 +17,29 @@ $(document).bind('pageinit', function() {
   	<img id="splash_image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/img.jpg"/>
 </div>
 
-<ul data-role="listview" data-inset="true" data-theme="c">
-	<!-- <li data-role="divider" data-theme="a">Go Action</li> -->
-	<li data-icon="list-arrow">
-		<a href="options.html">
+ <ul data-role="listview" data-inset="true" data-theme="c">
+    
+    <li data-icon="list-arrow">
+        <a href="<? bloginfo('url'); ?>/todays-evening/" data-transition="slide" data-ajax="false">
       <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/contact.png"> -->
-		    Today's Evening
-	    </a>
+            Today's Evening
+        </a>
     </li>
-	<li data-icon="list-arrow">
-    <a href="methods.html">
+    <li data-icon="list-arrow">
+    <!-- <a href="<? bloginfo('url'); ?>/menu/"  data-transition="flip"> -->
+       <a href="https://docs.google.com/gview?embedded=true&url=http://greenfiremarket.com/wp-content/uploads/2013/01/Menu.pdf">
       <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/menu.png"> -->
       Menu
     </a>
   </li>
   <li data-icon="list-arrow">
-    <a href="events.html">
+    <a href="<? bloginfo('url'); ?>/upcoming_events/" data-transition="flip">
       <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/events.png"> -->
       Events
     </a>
   </li>
   <li data-icon="list-arrow">
-    <a href="events.html">
+    <a href="<? bloginfo('url'); ?>/contact/"  data-ajax="false">
       <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/contact.png"> -->
       Contact
     </a>
